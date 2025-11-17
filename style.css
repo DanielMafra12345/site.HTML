@@ -1,0 +1,23 @@
+body {
+  background-image: url('fundo do meu site.jpg');
+  background-size: cover;        /* cobre toda a tela */
+  background-position: center;   /* centraliza a imagem */
+  background-repeat: no-repeat;  /* não repete */
+  height: 100vh;                 /* altura = 100% da tela */
+  margin: 0;
+  color: rgb(156, 229, 212);                  /* cor do texto */
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding-top: 100px;
+  background-color: #000; /* cor de fundo alternativa */
+  background-attachment: fixed;
+  background-image: url("fundo do meu site.jpg");
+  body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+}
